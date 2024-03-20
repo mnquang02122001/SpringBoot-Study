@@ -12,7 +12,7 @@ public class SayHelloController {
 	@RequestMapping("say-hello")
 	@ResponseBody
 	public String sayHello() {
-		return "Hello! What are u l t d?";
+		return "Hello! What are u l t d!";
 	}
 	
 	@RequestMapping("say-hello-html")
